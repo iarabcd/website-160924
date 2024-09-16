@@ -1,0 +1,79 @@
+body{
+    background-color: #ffd5ef;/*adicionar cor de fundo*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*adicionar fonte no body para aplicar ao site todo*/
+}
+header{
+    background-color: #ffffff;
+    height: 120px;/*altura. importante não colocar o px separado do num.*/
+    width: 1770px;/*largura*/
+    margin: 50px auto 0 auto;/*margem. ordem:  superior, direita, inferior e esquerda.*/
+    padding: 0;
+}
+header #titulo{
+    padding: 15px 0;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+nav{
+    background-color:#ff6bde;
+    height:60px;
+    width:1770px;
+    margin: 0 auto;
+    
+}
+nav ul{
+    margin: 0;/*o header e a nav não estavam grudados pq a ul estava com margem*/
+    display: flex;/*colocar na horizontal*/
+    flex-direction: row;
+    padding: 0;/*margem interna*/
+}
+nav ul li{
+    padding: 12px 0;
+    color: #ffffff;
+    font-size: 30px;/*tamanho da fonte*/
+    list-style: none;/*tirar bolinha preta*/
+    width: 20%;/*espaço entre elas*/
+    text-align:center;
+    transition: 0.5s;/*adicionar transição*/
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;/*tirar sublinhado*/
+}
+section{
+    background-color:#ffaee0;
+    height: 500px;
+    width:1770px;
+    margin: 0 auto;
+}
+section h2{
+    margin: 0;
+    padding: 30px 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.fotos{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;/*para alinhar ao centro*/
+    align-items: center;
+
+}
+.fotos .foto {
+    margin: 0 90px;
+}
+.fotos .foto img{
+    width: 350px;
+}
+footer{
+    background-color: #ffffff;
+    height: 300px;
+    width: 2000px;
+    margin: 0 auto;
+    padding: 0;
+}
